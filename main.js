@@ -746,7 +746,7 @@ app.post("/novel/view/add/:id", function(request,res,next){
     }
   
   tempSaveArr.paragraph[tempSaveArr.paragraph.length] = Paragraph
-  tempSaveArr.time = + new Date()
+  //tempSaveArr.time = + new Date()
 
   console.log(tempSaveArr)
   console.log(filePath)
