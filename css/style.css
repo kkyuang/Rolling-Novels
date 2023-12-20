@@ -35,8 +35,6 @@
     padding: auto;
     margin: 16px;
     text-align: center;
-    display: flex;
-    flex-flow: wrap;
 }
 
 .book-list{
@@ -48,6 +46,8 @@
     text-align: left;
     padding: 16px;
     margin-bottom: 4.375vh;
+    display: flex;
+    flex-flow: wrap;
 }
 
 .list-btn{
