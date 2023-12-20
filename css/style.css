@@ -35,6 +35,8 @@
     padding: auto;
     margin: 16px;
     text-align: center;
+    display: flex;
+    flex-flow: wrap;
 }
 
 .book-list{
