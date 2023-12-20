@@ -215,7 +215,7 @@ app.get('/', function(request, response) {
   for(var i = 0; i < novelList.length; i++){
     btnsText += `
     <button class="book-surface" onclick="location.href='/novel/view/${novelList[i].id}'"><span>${novelList[i].title}</span>
-    <span style="font-size: 0.6em;"><br>최초 생성: ${getTermText(novelList[i].time)}</span><br>최종 이어쓰기: ${getTermText(novelList[i].paragraph[novelList[i].paragraph.length - 1].time)}</span></button>`
+    <span style="font-size: 0.6em;"><br>최초 생성: ${getTermText(novelList[i].time)}<br>최종 이어쓰기: ${getTermText(novelList[i].paragraph[novelList[i].paragraph.length - 1].time)}</span></button>`
   }
   html = changeElements(html, [{'key': 'list-novels', 'value': btnsText}])
 
